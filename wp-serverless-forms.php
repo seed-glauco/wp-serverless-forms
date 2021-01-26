@@ -7,6 +7,7 @@ Version: 1.3.1.1
 Author: Shifter
 Author URI: https://getshifter.io
 License: GPLv3
+GitHub Plugin URI: https://github.com/seed-glauco/wp-serverless-forms
 */
 
 /**
