@@ -10,6 +10,18 @@ License: GPLv3
 GitHub Plugin URI: https://github.com/seed-glauco/wp-serverless-forms
 */
 
+
+//UPDATE FROM GITHUB OVERRIDE WORDPRESS.ORG REPO:BEGIN
+add_filter( 'github_updater_override_dot_org', function() {
+    return [ 
+        'wp-serverless-forms/wp-serverless-forms.php', 
+      ];
+});
+//UPDATE FROM GITHUB OVERRIDE WORDPRESS.ORG REPO:END
+
+
+
+
 /**
  * Admin Settings Menu
  */
